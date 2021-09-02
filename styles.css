@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 -150px;
+  color: #8e90a5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.order-sum__container {
+  padding: 1.125em 3.125em;
+}
+
+.order-sum__panel {
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 1.2em;
+  text-align: center;
+  margin-bottom: 5em;
+  box-shadow: 0 20px 20px #ababab;
+}
+
+.order-sum__panel img {
+  border-radius: 1.2em 1.2em 0 0;
+}
+
+.order-sum__plan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f8f9fe;
+  border-radius: 1em;
+  margin: 3em 0;
+  padding: 1.2em 0;
+}
+
+.order-sum__info h2 {
+  font-weight: 900;
+  color: #0d173a;
+}
+
+.plan-details p {
+  margin: 0;
+}
+
+.plan-details p:first-child {
+  font-weight: 900;
+}
+
+.plan-details p + p {
+  margin-top: 0.75em;
+}
+
+.change-plan:hover {
+  text-decoration: none;
+}
+
+.cta {
+  color: white;
+  background-color: #382ae1;
+  display: block;
+  cursor: pointer;
+  padding: 1em 3.5em;
+  border-radius: 1em;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 2em;
+  box-shadow: 0px 6px 10px #ababab;
+}
+
+.cta:hover {
+  opacity: 0.75;
+}
+
+.order-sum__cancel {
+  margin-bottom: 2em;
+}
+
+.order-sum__cancel a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+}
+.order-sum__cancel a:hover {
+  color: #0d173a;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
