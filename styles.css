@@ -50,11 +50,11 @@ img {
   align-items: center;
   background-color: #f8f9fe;
   border-radius: 1em;
-  margin: 3em 0;
+  margin: 2em 0;
   padding: 1.2em 0;
 }
 
-.order-sum__info h2 {
+.order-sum__info h1 {
   font-weight: 900;
   color: #0d173a;
 }
